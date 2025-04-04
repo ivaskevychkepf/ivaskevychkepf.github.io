@@ -1,0 +1,36 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+    margin-bottom: 20px;
+}
+th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+th {
+    background-color: #a6d4f2;
+    font-weight: bold;
+}
+td {
+    background-color: #d9edf7;
+}
+
+/* Таблиця через float */
+.table-float {
+    width: 100%;
+    display: table;
+}
+.row {
+    display: table-row;
+}
+.cell {
+    display: table-cell;
+    padding: 10px;
+    border: 1px solid #ddd;
+    background-color: #d9edf7;
+}
+.header .cell {
+    background-color: #a6d4f2;
+    font-weight: bold;
+}

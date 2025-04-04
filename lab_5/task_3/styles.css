@@ -1,0 +1,45 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+    margin-bottom: 20px;
+}
+th, td {
+    border: 1px solid #000;
+    padding: 10px;
+}
+th {
+    background-color: #4CAF50;
+    color: white;
+    font-weight: bold;
+}
+td {
+    background-color: #dff0d8;
+}
+tbody tr:nth-child(even) td {
+    background-color: #c8e6c9;
+}
+
+/* Таблиця через float */
+.table-float {
+    width: 100%;
+    display: table;
+    border: 1px solid #000;
+}
+.row {
+    display: table-row;
+}
+.cell {
+    display: table-cell;
+    padding: 10px;
+    border: 1px solid #000;
+    background-color: #dff0d8;
+}
+.header .cell {
+    background-color: #4CAF50;
+    color: white;
+    font-weight: bold;
+}
+.row:nth-child(even) .cell {
+    background-color: #c8e6c9;
+}
