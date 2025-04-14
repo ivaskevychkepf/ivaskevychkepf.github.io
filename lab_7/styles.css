@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background: #fff;
+    color: #000;
+}
+
+.title {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+}
+
+.catalog {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.item {
+    border: 1px solid #ccc;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    background: #f9f9f9;
+}
+
+.item h2 {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.item img {
+    height: 180px;
+    margin-bottom: 10px;
+}
+
+.name {
+    color: #0097d8;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.price {
+    margin: 10px 0;
+    font-size: 16px;
+}
+
+.old {
+    text-decoration: line-through;
+    color: #555;
+    margin-right: 5px;
+}
+
+.btn {
+    background: #ffeb00;
+    color: #000;
+    padding: 10px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.soon {
+    background: #d4167f;
+    color: white;
+    padding: 10px;
+    border: none;
+    font-weight: bold;
+    cursor: default;
+}
+
+.label {
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    padding: 5px 10px;
+    color: white;
+    font-size: 12px;
+    border-radius: 50%;
+    font-weight: bold;
+}
+
+.label.new {
+    background-color: #8bc53f;
+}
+
+.label.hit {
+    background-color: #00a2e8;
+}
